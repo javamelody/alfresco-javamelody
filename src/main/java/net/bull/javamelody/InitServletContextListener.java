@@ -12,7 +12,7 @@ public class InitServletContextListener implements ServletContextListener {
 		if (Parameters.getParameter(Parameter.STORAGE_DIRECTORY) == null
 				&& System.getProperty("alfresco.home") != null) {
 			System.setProperty(Parameters.PARAMETER_SYSTEM_PREFIX + Parameter.STORAGE_DIRECTORY.getCode(),
-					System.getProperty("alfresco.home") + "/alf_data");
+					System.getProperty("alfresco.home") + "/alf_data/javamelody");
 		}
 		if (Parameters.getParameter(Parameter.SQL_TRANSFORM_PATTERN) == null) {
 			// regexp pour agréger les paramètres bindés dans les critères
