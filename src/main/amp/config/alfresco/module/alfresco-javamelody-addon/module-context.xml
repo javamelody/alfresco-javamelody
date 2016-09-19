@@ -22,7 +22,7 @@
     <import resource="classpath:net/bull/javamelody/monitoring-spring-datasource.xml" />
 
     <!-- Init class that is initialized by Spring -->
-    <bean id="alfresco-javamelody-addon.init" class="net.bull.javamelody.JavaMelodyInit" init-method="init">
+    <bean id="alfresco-javamelody-addon.init" class="net.bull.javamelody.JavaMelodyInit">
         <property name="authorityService" ref="authorityService" />
     </bean>
 </beans>

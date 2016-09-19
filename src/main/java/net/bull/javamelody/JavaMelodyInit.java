@@ -28,17 +28,4 @@ public class JavaMelodyInit {
 	public void setAuthorityService(AuthorityService authorityService) {
 		AlfrescoMonitoringFilter.setAuthorityService(authorityService);
 	}
-
-	public void init() {
-		if (Parameters.getParameter(Parameter.SQL_TRANSFORM_PATTERN) == null) {
-			// regexp pour agréger les paramètres bindés dans les critères
-			// de requêtes SQL tels que "in (?, ?, ?, ?)" et ainsi pour éviter
-			// que ces requêtes ayant un nombre variable de paramètres soient
-			// considérées comme différentes ;
-			// de fait cela agrège aussi les values des inserts
-			System.setProperty(Parameters.PARAMETER_SYSTEM_PREFIX + Parameter.SQL_TRANSFORM_PATTERN, "\\([\\?, ]+\\)");
-		}
-		
-		LOG.info("JavaMelody is monitoring Alfresco");
-	}
 }
