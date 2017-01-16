@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.bull.javamelody</groupId>
     <artifactId>alfresco-javamelody-addon</artifactId>
-    <version>1.62.0</version>
+    <version>1.63.0</version>
     <name>Alfresco JavaMelody add-on</name>
     <packaging>amp</packaging>
     <description>JavaMelody Monitoring in Alfresco</description>
@@ -103,7 +103,7 @@
 		<dependency>
 			<groupId>net.bull.javamelody</groupId>
 			<artifactId>javamelody-core</artifactId>
-			<version>1.62.0</version>
+			<version>1.63.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.lowagie</groupId>
