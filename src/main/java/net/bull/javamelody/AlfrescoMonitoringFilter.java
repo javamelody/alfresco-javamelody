@@ -61,7 +61,7 @@ public class AlfrescoMonitoringFilter implements Filter {
 		final HttpServletRequest httpRequest = (HttpServletRequest) request;
 		final HttpServletResponse httpResponse = (HttpServletResponse) response;
 		if (!isAdmin(httpRequest)) {
-			LOG.debug("Forbidden access to monitoring from " + request.getRemoteAddr());
+			PluginMonitoringFilter.logForDebug("Forbidden access to monitoring from " + request.getRemoteAddr());
 			httpResponse.sendError(HttpServletResponse.SC_FORBIDDEN, "Forbidden access");
 			httpResponse.flushBuffer();
 			return;
