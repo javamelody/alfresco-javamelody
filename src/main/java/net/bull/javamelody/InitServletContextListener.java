@@ -30,8 +30,7 @@ public class InitServletContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		if (Parameter.STORAGE_DIRECTORY.getValue() == null
-				&& System.getProperty("alfresco.home") != null) {
+		if (Parameter.STORAGE_DIRECTORY.getValue() == null && System.getProperty("alfresco.home") != null) {
 			Parameter.STORAGE_DIRECTORY.setValue(System.getProperty("alfresco.home") + "/alf_data/javamelody");
 		}
 		if (Parameter.SQL_TRANSFORM_PATTERN.getValue() == null) {
