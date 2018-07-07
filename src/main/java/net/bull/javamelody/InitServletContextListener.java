@@ -23,6 +23,7 @@ import javax.servlet.annotation.WebListener;
 
 /**
  * Initialisation des paramètres.
+ * 
  * @author Emeric Vernat
  */
 @WebListener

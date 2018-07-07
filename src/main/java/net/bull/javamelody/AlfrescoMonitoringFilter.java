@@ -33,6 +33,7 @@ import org.alfresco.service.cmr.security.AuthorityService;
 
 /**
  * Filter of monitoring JavaMelody for Alfresco.
+ * 
  * @author Emeric Vernat
  */
 // This filter is not used because it is before the point which makes
