@@ -26,3 +26,4 @@ Compiling and Installing the plugin:
  - The amp file needs to be installed into the Alfresco Repository webapp using the Alfresco Module Management Tool (MMT):
    follow the [same procedure](https://github.com/javamelody/javamelody/wiki/AlfrescoPlugin).
  - Open http://localhost:8080/alfresco/monitoring in a browser.
+
