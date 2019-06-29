@@ -21,7 +21,7 @@ import org.alfresco.service.cmr.security.AuthorityService;
 
 /**
  * Initialisation JavaMelody add-on.
- * 
+ *
  * @author Emeric Vernat
  */
 public class JavaMelodyInit {
