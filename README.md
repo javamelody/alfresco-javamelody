@@ -5,8 +5,6 @@ Add-on for JavaMelody to monitor performance in a [Alfresco](https://www.alfresc
 
 See https://github.com/javamelody/javamelody/wiki
 
-Continuous integration: https://javamelody.ci.cloudbees.com/job/alfresco-javamelody/
-
 License ASL, http://www.apache.org/licenses/LICENSE-2.0
 
 Please submit github pull requests and github issues.
