@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.bull.javamelody</groupId>
 	<artifactId>alfresco-javamelody-addon</artifactId>
-	<version>1.98.0</version>
+	<version>1.99.0</version>
 	<name>Alfresco JavaMelody add-on</name>
 	<packaging>amp</packaging>
 	<description>JavaMelody Monitoring in Alfresco</description>
